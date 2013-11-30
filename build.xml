@@ -1,4 +1,4 @@
-<project name="SicenceAndMagickWorld" default="main">
+<project name="NeverTheNether" default="main">
         <property environment="env"/>
         <!-- Properties -->
 
