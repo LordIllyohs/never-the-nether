@@ -19,12 +19,6 @@ public class neverthenether {
 	@Instance("neverthenether")
 	public static neverthenether instance;
 	
-	//@SidedProxy(clientSide = "example.proxies.proxies.ClientProxy", serverSide = "example.proxies.CommonProxy")
-	//public static commonproxy proxy;
-	
-	
-	
-	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		
