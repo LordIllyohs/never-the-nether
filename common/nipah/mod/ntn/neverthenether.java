@@ -2,7 +2,6 @@ package nipah.mod.ntn;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import nipah.mod.ntn.network.PacketHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
@@ -13,7 +12,7 @@ import cpw.mods.fml.common.network.NetworkMod;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 @Mod(modid = "neverthenether", name = "Never The Nether", version = "1")
-@NetworkMod(channels = {"nevernether"}, clientSideRequired = true, serverSideRequired = true, packetHandler = PacketHandler.class)
+@NetworkMod(clientSideRequired = true, serverSideRequired = true)
 public class neverthenether {
 
 	@Instance("neverthenether")
