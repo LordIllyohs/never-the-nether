@@ -1,0 +1,20 @@
+[
+{
+  "modid": "neverthenether",
+  "name": "Never The Nether",
+  "description": "Why go to the Nether?",
+  "version": "1.0",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "Nipah"
+  ],
+  "credits": "By Nipah with help from LordIllyohs",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
