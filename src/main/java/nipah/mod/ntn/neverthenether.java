@@ -1,4 +1,5 @@
 package nipah.mod.ntn;
+
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -11,7 +12,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkMod;
 import cpw.mods.fml.common.registry.GameRegistry;
 
-@Mod(modid = "neverthenether", name = "Never The Nether", version = "1")
+@Mod(modid = "neverthenether", name = "Never The Nether", version = "1.0")
 @NetworkMod(clientSideRequired = true, serverSideRequired = false)
 public class neverthenether {
 
@@ -19,9 +20,7 @@ public class neverthenether {
 	public static neverthenether instance;
 	
 	@EventHandler
-	public void preInit(FMLPreInitializationEvent event) {
-		
-	}
+	public void preInit(FMLPreInitializationEvent event) {}
 		
 	@EventHandler
 	public void load(FMLInitializationEvent event) {
