@@ -37,7 +37,6 @@ public class neverthenether {
 	
 	}
 	
-	
 	@EventHandler
 	public void modsLoaded(FMLPostInitializationEvent event) {}
 	
